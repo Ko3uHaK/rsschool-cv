@@ -7,4 +7,15 @@
 }
 .header{
     background-color:rosybrown;
+}  
+.name{
+    margin-top: 40px;
+    width: 200px;
 }
+.myphoto{
+    margin-left: 500px;
+}
+.container {
+    width: 1170px;
+    margin: 0 auto;
+  }
