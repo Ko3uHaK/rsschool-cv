@@ -1,0 +1,27 @@
+.body{
+    background-color: rgba(70, 24, 62, 0.815);
+}
+div,
+p,
+input,
+button,
+form,
+span,
+a,
+ul,
+li {
+  box-sizing: border-box;
+}
+.container{
+    text-align: center;
+}
+.header{
+    background-color:blue;
+}
+.shortname{
+    padding-left: 20px;
+}
+.photo{
+    padding-left: 500px;
+    font-size: 300px;
+}
