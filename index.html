@@ -1,45 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="css/main.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV</title>
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/min.css">
+    <link rel="stylesheet" href="css/main.min.css">
 </head>
-<body class="body">
+
+<body>
     <header class="header">
         <div class="container">
-            <div class="shortname">
-                <h1 class="name">Kachura Daniil</h1>
-                <p class="short">Beginner in Frontend</p>
-            </div>
-            <div class="photo">
-                <img class="myphoto" src="img/1.png" alt="I">
+            <div class="wrapper">
+                <div class="wrap">
+                    <h1>Kachura Daniil</h1>
+                    <div class="header_subtitle">Beginner in Frontend</div>
+                    <nav>
+                        <ul>
+                            <li><a href="tel:+375336050858">Tel(MTS): +375336050858</a></li>
+                            <li><a href="tel:+375257663739">Tel(Life): +375257663739</a></li>
+                            <li><a href="https://mail.google.com/mail/u/0/#inbox">E-mail: den2001888@yandex.by</a></li>
+                            <li><a href="https://github.com/Ko3uHaK">GitHub: Ko3uHaK</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <img class="my_photo" src="img/photo.png" alt="my_photo">
             </div>
         </div>
     </header>
-    <section class="section1">
+    <main class="main">
         <div class="container">
-                <h2>Contacts:</h2>
-                <ul>
-                    <li>Tel(MTS): +375336050858</li>
-                    <li>Tel(Life): +375257663739</li>
-                    <li>E-mail: den2001888@yandex.by</li>
-                    <li>GitHub: Ko3uHaK</li>
-                </ul>
-            </div>
-    </section>
-    <section class="section2">
-       <div class="container">
-        <h2>About me:</h2>
-        <p>I'm a beginner id Frontend development.My main goal is to become a specialist in this field. I study at BSUIR on speciality infocommunication technologies. </p>
-       </div>
-    </section>
-    <section class="section3">
-        <div class="container">
-            <h2>My skills:</h2>
-            <ul>
+            <nav class="wrapper">
+                <a href="">Summary</a>
+                <a href=""> Skills</a>
+                <a href="">Contact</a>
+                <a href="">Code examples</a>
+                <a href="">English lvl</a>
+            </nav>
+            <h2>Summary</h2>
+            <div class="main-summary">I am a beginner developer with experience in UI/UX design. I easily master
+                something new, I want to learn not only to create a design, but also to bring
+                ideas to life</div>
+            <h2>Skills</h2>
+            <ul class="skills">
                 <li>HTML5</li>
                 <li>CSS3 (SCSS)</li>
                 <li>JS (ES6)</li>
@@ -47,22 +54,23 @@
                 <li>Git</li>
                 <li>Photoshop, Figma, Avacode</li>
             </ul>
+            <h2>My code</h2>
+            <img src="img/code.png" alt="code" class="code">
+            <h3>English level:</h3>
+            <div class="english">A2(Waystage — Pre-Intermediate)</div>
         </div>
-    </section>
-    <section class="section4">
-        <div class="container">
-            <h2>My code:</h2>
-            <img src="img/Screenshot_1.png" alt="code">
-        </div>
-    </section>
-    <section>
-        <div class="container">
-            <h2>English level:</h2>
-            <p>A2(Waystage — Pre-Intermediate)</p>
-        </div>
-    </section>
+    </main>
     <footer class="footer">
-
+        <div class="container">
+            <div class="wrapper">
+                <a href="https://rs.school/"><img src=" img/school.png" alt="#" class="ico"></a>
+                <a href="#">
+                    <p>2021</p>
+                </a>
+                <a href="https://github.com/rolling-scopes-school""><img src=" img/github.svg" alt="#" class="ico"></a>
+            </div>
+        </div>
     </footer>
 </body>
+
 </html>

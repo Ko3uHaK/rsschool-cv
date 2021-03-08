@@ -1,0 +1,42 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: #8a00aa;
+  background: linear-gradient(90deg, #8a00aa 0%, #00a6ff 100%);
+  text-align: center;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #cecdcd;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.my_photo {
+  width: 300px;
+}
+
+header {
+  padding: 20px;
+}
+
+.main nav {
+  border: 2px solid #000;
+}
+
+.skills {
+  text-align-last: left;
+}
+
+.ico {
+  width: 50px;
+}
+
+.ico {
+  width: 120px;
+}
